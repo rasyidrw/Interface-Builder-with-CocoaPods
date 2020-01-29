@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,14 @@
 		275761E223E127F30074672F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275761E023E127F30074672F /* Main.storyboard */; };
 		275761E423E127F70074672F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275761E323E127F70074672F /* Assets.xcassets */; };
 		275761E723E127F70074672F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275761E523E127F70074672F /* LaunchScreen.storyboard */; };
+		275761EF23E131E80074672F /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275761EE23E131E70074672F /* DatePickerViewController.swift */; };
+		275761F123E13B840074672F /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275761F023E13B840074672F /* SegmentedControlViewController.swift */; };
+		279EE7CF23E15DA2003C93A5 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE7CE23E15DA2003C93A5 /* ImagePickerViewController.swift */; };
+		F7D88BE325C7D12A25D3695A /* Pods_Interface_Builder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3441C0218CBBAFD5FA22340C /* Pods_Interface_Builder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2315355410B2D3026BCFFF3E /* Pods-Interface Builder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interface Builder.debug.xcconfig"; path = "Target Support Files/Pods-Interface Builder/Pods-Interface Builder.debug.xcconfig"; sourceTree = "<group>"; };
 		275761D723E127F30074672F /* Interface Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interface Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		275761DA23E127F30074672F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		275761DC23E127F30074672F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		275761E323E127F70074672F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275761E623E127F70074672F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		275761E823E127F70074672F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275761EE23E131E70074672F /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		275761F023E13B840074672F /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		279EE7CE23E15DA2003C93A5 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		3441C0218CBBAFD5FA22340C /* Pods_Interface_Builder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interface_Builder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67856802CC85B6080680C82 /* Pods-Interface Builder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interface Builder.release.xcconfig"; path = "Target Support Files/Pods-Interface Builder/Pods-Interface Builder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D88BE325C7D12A25D3695A /* Pods_Interface_Builder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				275761D923E127F30074672F /* Interface Builder */,
 				275761D823E127F30074672F /* Products */,
+				E842BC4CC54B1BBF0B01EAF4 /* Pods */,
+				B81B2306331B036765353901 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,28 @@
 				275761E323E127F70074672F /* Assets.xcassets */,
 				275761E523E127F70074672F /* LaunchScreen.storyboard */,
 				275761E823E127F70074672F /* Info.plist */,
+				275761EE23E131E70074672F /* DatePickerViewController.swift */,
+				275761F023E13B840074672F /* SegmentedControlViewController.swift */,
+				279EE7CE23E15DA2003C93A5 /* ImagePickerViewController.swift */,
 			);
 			path = "Interface Builder";
+			sourceTree = "<group>";
+		};
+		B81B2306331B036765353901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3441C0218CBBAFD5FA22340C /* Pods_Interface_Builder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E842BC4CC54B1BBF0B01EAF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2315355410B2D3026BCFFF3E /* Pods-Interface Builder.debug.xcconfig */,
+				C67856802CC85B6080680C82 /* Pods-Interface Builder.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 275761EB23E127F70074672F /* Build configuration list for PBXNativeTarget "Interface Builder" */;
 			buildPhases = (
+				4F964A7ECAE46E3340C61909 /* [CP] Check Pods Manifest.lock */,
 				275761D323E127F30074672F /* Sources */,
 				275761D423E127F30074672F /* Frameworks */,
 				275761D523E127F30074672F /* Resources */,
+				22FEEDF6931F5BF65215D7B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22FEEDF6931F5BF65215D7B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interface Builder/Pods-Interface Builder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interface Builder/Pods-Interface Builder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interface Builder/Pods-Interface Builder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F964A7ECAE46E3340C61909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Interface Builder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		275761D323E127F30074672F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279EE7CF23E15DA2003C93A5 /* ImagePickerViewController.swift in Sources */,
+				275761EF23E131E80074672F /* DatePickerViewController.swift in Sources */,
 				275761DF23E127F30074672F /* ViewController.swift in Sources */,
 				275761DB23E127F30074672F /* AppDelegate.swift in Sources */,
+				275761F123E13B840074672F /* SegmentedControlViewController.swift in Sources */,
 				275761DD23E127F30074672F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		275761EC23E127F70074672F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2315355410B2D3026BCFFF3E /* Pods-Interface Builder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		275761ED23E127F70074672F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67856802CC85B6080680C82 /* Pods-Interface Builder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
